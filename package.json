@@ -6,7 +6,8 @@
   "scripts": {
     "build": "postcss src/styles.css -o public/output.css",
     "watch": "chokidar \"src/**/*.css\" -c \"npm run build\"",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -b main -d src"
+
   },
   "keywords": [],
   "author": "",

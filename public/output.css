@@ -645,11 +645,6 @@ video {
 }
 
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -695,11 +690,6 @@ video {
 }
 
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
-
 .w-full {
   width: 100%;
 }
@@ -722,12 +712,6 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
 

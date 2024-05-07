@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "postcss src/styles.css -o public/output.css",
-    "watch": "chokidar \"src/**/*.css\" -c \"npm run build\""
+    "watch": "chokidar \"src/**/*.css\" -c \"npm run build\"",
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38"
   }
 }
